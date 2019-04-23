@@ -1,1 +1,1 @@
-set relativenumber
+" set relativenumber

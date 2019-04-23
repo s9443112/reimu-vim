@@ -24,12 +24,12 @@ function PlugManager(){
 endBool=false
 
 while [[ "$endBool" == "false" ]]; do
-    echo "==Reimu Customer VI Improve Installer=="
+    echo "==DogHow Customized VI Improve Installer=="
     echo "==Please choose what do you want"
     echo "1.Automatic Install. "
     # echo "2.Manual Install. "
     echo "0.End Installer."
-    echo "==Reimu Customer VI Improve Installer=="
+    echo "==DogHow Customized VI Improve Installer=="
     read -p "Type : " type
     if [[ "$type" =~ ^[0-2]+$ ]]; then
         if [[ "$type" == 1 ]]; then
