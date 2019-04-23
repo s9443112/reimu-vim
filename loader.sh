@@ -1,5 +1,5 @@
 function GetPkg() {
-    curl -fLo ~/.vim/reimu-vim/$1 --create-dirs https://raw.githubusercontent.com/m85091081/reimu-vim/master/$1
+    curl -fLo ~/.vim/reimu-vim/$1 --create-dirs https://raw.githubusercontent.com/s9443112/reimu-vim/master/$1
 }
 
 function GetPlugin() {
@@ -13,12 +13,12 @@ function PlugManager(){
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     curl -fLo ~/.vim/reimu-vim/BaseConfig/PlugManager.vim --create-dirs \
-        https://raw.githubusercontent.com/m85091081/reimu-vim/master/BaseConfig/PlugManager.vim
+        https://raw.githubusercontent.com/s9443112/reimu-vim/master/BaseConfig/PlugManager.vim
     mkdir ~/.vim/reimu-vim/PlugList
     mkdir ~/.vim/reimu-vim/PlugConfig
     GetPkg Nocompatible.vim;
     curl -fLo ~/.vimrc \
-        https://raw.githubusercontent.com/m85091081/reimu-vim/master/vimrc
+        https://raw.githubusercontent.com/s9443112/reimu-vim/master/vimrc
 }
 
 endBool=false

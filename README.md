@@ -1,4 +1,8 @@
-# reimu-vim
+# doghow-vim 
+參照reimu-vim 設定檔更改
+
+
+## reimu-vim
 
 vim for layer plugin support
 
@@ -19,6 +23,6 @@ vim for layer plugin support
 
 Install Script:
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/m85091081/reimu-vim/master/loader.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/s9443112/reimu-vim/master/loader.sh)"
 
 ```
